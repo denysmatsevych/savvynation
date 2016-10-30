@@ -138,7 +138,7 @@
     padding-bottom: 29px;
 }
 .main-menu > li:after{
-    background: #e6e6e6 none repeat scroll 0 0;
+    /*background: #e6e6e6 none repeat scroll 0 0;*/
     border-radius: 50%;
     content: "";
     height: 6px;
