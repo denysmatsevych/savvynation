@@ -1147,7 +1147,7 @@ div.owl-controls {
     padding: 40px 0 50px;
 }
 .callto-content h2{
-    float: left;
+    /* float: left; */
     color: #92278f;
     font-size: 36px;
     margin-top: 8px;
