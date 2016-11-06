@@ -3012,3 +3012,7 @@ ul.date {
 .lang-dropdown li:hover{
     color: #92278f;
 }
+
+.single-facility h4 {
+	min-height: 50px;
+}
