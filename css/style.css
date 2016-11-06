@@ -533,6 +533,7 @@ img.slide-cloud {
 .owl-carousel .owl-item .slider-area img {
     display: inline-block;
     width: auto;
+	line-height: 1.5;
 }
 .owl-item .slider-area{
     display: none;
@@ -625,10 +626,12 @@ div.owl-controls {
     color: #92278f;
 }
 .subtitle{
-    color: #c7c7c7;
+    /* color: #c7c7c7; */
+	color: #148487;
     font-size: 24px;
     letter-spacing: -0.6px;
     margin: 15px 0 68px;
+	line-height: 1.5;
 }
 .welcome-img {
     position: relative;
@@ -3008,4 +3011,8 @@ ul.date {
 .lang-dropdown li.active,
 .lang-dropdown li:hover{
     color: #92278f;
+}
+
+.single-facility h4 {
+	min-height: 50px;
 }
