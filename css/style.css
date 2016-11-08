@@ -1556,7 +1556,8 @@ button.primary-btn span{
 }
 .who-we-details{
     padding-left: 15px;
-    padding-top: 104px;
+    /* padding-top: 104px; */
+    padding-top: 0;
 }
 .who-we-details .subtitle{
     margin-bottom: 27px;
@@ -1571,7 +1572,8 @@ button.primary-btn span{
     margin-bottom: 37px;
 }
 .atmosphere-details {
-    padding-top: 88px;
+    /* padding-top: 88px; */
+    padding-top: 0;
 }
 .atmosphere-details .subtitle{
     margin-bottom: 48px;
@@ -3019,7 +3021,7 @@ ul.date {
 
 .who-we-details {
     padding-left: 15px;
-    padding-top: 0; 
+    padding-top: 0;
 }
 
 ul.who-we-list span {
