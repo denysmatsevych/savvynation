@@ -3016,3 +3016,35 @@ ul.date {
 .single-facility h4 {
 	min-height: 50px;
 }
+
+.who-we-details {
+    padding-left: 15px;
+    padding-top: 0; 
+}
+
+/*
+ul.who-we-list {
+	padding-left: 40px;
+}
+
+
+ul.who-we-list li {
+	font-family: 'Sniglet', cursive;
+    font-weight: 400;
+	font-size: 16px;
+    color: #9a9a9a;
+	line-height: 1.5;
+}
+*/
+ul.who-we-list span {
+	font-family: 'Sniglet', cursive;
+    font-weight: 400;
+	font-size: 16px;
+    color: #9a9a9a;
+	line-height: 1.5;
+	padding-left: 17px;
+}
+
+.atmosphere-details {
+	padding-top: 0;
+}
