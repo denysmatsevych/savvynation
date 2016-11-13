@@ -644,15 +644,15 @@ div.owl-controls {
     /* box-shadow: 0 5px #7aad37; */
     margin-bottom: 5px;
 }
-.welcome-img.two img{
-    /* box-shadow: 0 5px #882286; */
+/* .welcome-img.two img{
+    box-shadow: 0 5px #882286;
 }
 .welcome-img.three img{
-    /* box-shadow: 0 5px #d9626f; */
+    box-shadow: 0 5px #d9626f;
 }
 .welcome-img.four img{
-    /* box-shadow: 0 5px #009dd6; */
-}
+    box-shadow: 0 5px #009dd6;
+} */
 .welcome-content{
     background: rgba(141, 198, 63, 0.9);
     bottom: 0;
