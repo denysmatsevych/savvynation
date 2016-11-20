@@ -211,7 +211,7 @@
 	//------------------------
     // Navigation
     //------------------------
-	$(".footer-widget").on("click","a", function (event) {
+	$(".footer-widget.main-page").on("click","a", function (event) {
 		//отменяем стандартную обработку нажатия по ссылке
 		event.preventDefault();
 
