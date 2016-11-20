@@ -89,12 +89,13 @@
 }
 .logo{
     position: relative;
+	padding-bottom: 5px;
     z-index: 1;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
 .logo a:after{
-    background: rgba(0, 0, 0, 0) url("../images/home1/logo-bg.png") no-repeat scroll center center / cover ;
+    /* background: rgba(0, 0, 0, 0) url("../images/home1/logo-bg.png") no-repeat scroll center center / cover ; */
     content: "";
     height: 182px;
     left: -54px;
