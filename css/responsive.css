@@ -851,7 +851,7 @@
 
 }
 .mobile-menu{
-    border: 2px solid #000;
+    border: 2px solid #92278f;
     border-radius: 4px;
     height: 32px;
     left: auto;
@@ -868,7 +868,7 @@
     transition: all 400ms ease;
 }
 .mobile-menu span{
-    background: #000 none repeat scroll 0 0;
+    background: #92278f none repeat scroll 0 0;
     display: block;
     height: 2px;
     margin-bottom: 4px;
