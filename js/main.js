@@ -224,4 +224,13 @@
 		//анимируем переход на расстояние - top за 1500 мс
 		$('body,html').animate({scrollTop: top}, 1500);
 	});
+	
+	//------------------------
+    // Tooltip
+    //------------------------
+	$('[data-toggle="tooltip"]').tooltip({
+		title: '<div><p>+38(067) 398 53 81</p><p>+38(068) 204 99 02</p></div>', 
+		html: true,
+		placement: "bottom"
+	}); 
 })(jQuery);

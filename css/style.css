@@ -3041,3 +3041,16 @@ ul.who-we-list span {
 .facility-section img.img-facility-section {
 	width: 548px;
 }
+
+.custom-tooltip:hover{
+	cursor: pointer;
+	
+}
+
+.custom-tooltip + .tooltip > .tooltip-inner {
+      background-color: #fff;
+      color: #FFFFFF;
+      border: 1px solid green;
+      padding: 15px;
+      font-size: 20px;
+  }
