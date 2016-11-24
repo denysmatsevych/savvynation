@@ -1090,6 +1090,7 @@ div.owl-controls {
 }
 .news-img img{
     border-radius: 4px;
+	max-height: 225px;
 }
 .news-img a{
     background: #0072bc none repeat scroll 0 0;
