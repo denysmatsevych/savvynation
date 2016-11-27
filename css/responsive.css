@@ -833,6 +833,17 @@
         right: 0;
         top: auto;
     }
+	
+	/* custom css */
+	.welcome-content img {
+		width: 64px;
+	}
+	.single-facility h4 {
+		min-height: 0;
+	}
+	.about-widget {
+		text-align: center;
+	}
 }
 @media screen and (min-width: 550px) and (max-width: 767px){
     .callto-content .primary-btn {
