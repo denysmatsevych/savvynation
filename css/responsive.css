@@ -14,6 +14,12 @@
 @media screen and (min-width: 1200px) and (max-width: 1440px){
 
 }
+@media screen and (max-width: 1280px){
+.classes-section .col-sm-4.col-xs-12 {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}
 @media screen and (min-width: 1025px) and (max-width: 1199px){
     .welcome-content {
         padding: 30px 10px 39px;
