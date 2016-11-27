@@ -310,6 +310,20 @@
 	.welcome-content img {
 		width: 64px;
 	}
+	.classes-section .col-sm-4.col-xs-12 {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+	.facility-section .col-sm-6:nth-child(3) {
+		clear: both;
+	}
+}
+@media screen and (min-width: 993px) and (max-width: 1024px){
+	.facility-section .col-sm-6:nth-child(3) {
+		float: left;
+	}
 }
 @media screen and (min-width: 320px) and (max-width: 767px){
     /*Home 1*/
