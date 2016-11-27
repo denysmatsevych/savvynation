@@ -6,4 +6,4 @@ documentation/*
 robots.txt
 
 # Ignore everything
-.htaccess
+#.htaccess
