@@ -305,6 +305,11 @@
         padding-right: 4px;
         width: 285px;
     }
+	
+	/* custom css */
+	.welcome-content img {
+		width: 64px;
+	}
 }
 @media screen and (min-width: 320px) and (max-width: 767px){
     /*Home 1*/
