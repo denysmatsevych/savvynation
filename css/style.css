@@ -3049,9 +3049,15 @@ ul.who-we-list span {
 }
 
 .custom-tooltip + .tooltip > .tooltip-inner {
-      background-color: #fff;
-      color: #FFFFFF;
-      border: 1px solid green;
-      padding: 15px;
-      font-size: 20px;
-  }
+    background-color: #fff;
+    color: #FFFFFF;
+    border: 1px solid green;
+    padding: 15px;
+    font-size: 20px;
+}
+  
+/* Galery Page
+   ========================================================================== */
+.gallery-section {
+    padding: 58px 0 57px;
+}
