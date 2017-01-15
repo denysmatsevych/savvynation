@@ -63,8 +63,7 @@
     //-------------------------------------
     //Count Down
     //-------------------------------------
-    if ($("#count-down").length > 0)
-    {
+    if ($("#count-down").length > 0) {
         $('#count-down').countdown({
             date: '12/24/2016 23:59:59',
             offset: +6,
@@ -211,19 +210,25 @@
 	//------------------------
     // Navigation
     //------------------------
-	$(".footer-widget.main-page").on("click","a", function (event) {
-		//отменяем стандартную обработку нажатия по ссылке
-		event.preventDefault();
-
-		//забираем идентификатор бока с атрибута href
-		var id  = $(this).attr('href'),
-
-		//узнаем высоту от начала страницы до блока на который ссылается якорь
-		top = $(id).offset().top;
-		
-		//анимируем переход на расстояние - top за 1500 мс
-		$('body,html').animate({scrollTop: top}, 1500);
+	var footerWidgetSelector = ".footer-widget.main-page";
+	
+	$(footerWidgetSelector + " a").click(function () {
+		scroll(footerWidgetSelector);
 	});
+	
+	function scroll(selector) {
+		console.log("selector: ", selector);
+		$(selector).on("click","a", function (event) {
+			event.preventDefault();
+
+			var id  = $(this).attr('href');
+			var top = $(id).offset().top;
+			console.log("id: ", id);
+			console.log("top: ", top);
+			
+			$('body,html').animate({scrollTop: top}, 1500);
+		});
+	}
 	
 	//------------------------
     // Tooltip
