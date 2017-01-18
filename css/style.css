@@ -3078,7 +3078,13 @@ ul.who-we-list span {
 .row-centered {
     text-align:center;
 }
+
 .center-block {
     float:none;
 }
+
+.table > tbody > tr > td {
+     vertical-align: middle;
+}
+
 
