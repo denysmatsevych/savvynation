@@ -752,7 +752,7 @@ div.owl-controls {
 /* Promo Section
    ========================================================================== */
 .promo-section{
-    background: url(../images/home1/about-bg.jpg) no-repeat scroll center center / cover;
+    /* background: url(../images/home1/about-bg.jpg) no-repeat scroll center center / cover; */
     padding: 100px 0 0;
 }
 .promo-content h4 {
@@ -3060,6 +3060,16 @@ ul.who-we-list span {
   
 /* Galery Page
    ========================================================================== */
-.gallery-section {
+.gallery-section,
+.promo-section {
     padding: 58px 0 57px;
 }
+
+.promo-section .subtitle {
+	margin-bottom: 0;
+}
+
+.padding-top-20px {
+	padding-top: 20px;
+}
+
