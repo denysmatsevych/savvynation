@@ -535,6 +535,7 @@ img.slide-cloud {
     display: inline-block;
     width: auto;
 	line-height: 1.5;
+	z-index: -1000;
 }
 .owl-item .slider-area{
     display: none;
