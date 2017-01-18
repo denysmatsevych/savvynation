@@ -3059,7 +3059,7 @@ ul.who-we-list span {
     font-size: 20px;
 }
   
-/* Galery Page
+/* Custom CSS
    ========================================================================== */
 .gallery-section,
 .event-section {
@@ -3072,5 +3072,13 @@ ul.who-we-list span {
 
 .padding-top-20px {
 	padding-top: 20px;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.center-block {
+    float:none;
 }
 
