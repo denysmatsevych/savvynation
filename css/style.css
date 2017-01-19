@@ -1101,8 +1101,8 @@ div.owl-controls {
     box-shadow: 0 4px #045a91;
     color: #fff;
     font-size: 23.73px;
-    /* left: 18px; */
-    left: 125px;
+    left: 18px;
+    /* left: 125px; */
     line-height: 0.9;
     padding: 8px 13px;
     position: absolute;
@@ -1131,6 +1131,10 @@ div.owl-controls {
     color: #979797;
     font-size: 14px;
     margin-top: 11px;
+}
+.single-news p:hover {
+	color: #92278f;
+	cursor: pointer;
 }
 .single-news p a{
     color: #979797;
