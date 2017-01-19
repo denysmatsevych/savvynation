@@ -3091,4 +3091,21 @@ ul.who-we-list span {
      vertical-align: middle;
 }
 
-
+.article-section {
+    padding: 58px 0 57px;
+}
+.article-content p{
+    line-height: 24px;
+    margin-bottom: 23px;
+}
+.article-details{
+    padding-left: 15px;
+    /* padding-top: 104px; */
+    padding-top: 0;
+}
+.article .subtitle{
+    margin-bottom: 27px;
+}
+.article-img {
+    padding: 58px 0 57px;
+}
