@@ -568,9 +568,9 @@ img.slide-cloud {
 .owl-nav .owl-prev {
     color: #fff;
     font-size: 70px;
-    left: 50px;
+    left: 20px;
     position: absolute;
-    top: 0;
+    top: 50px;
     -webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -ms-transition: all 500ms ease;
@@ -580,9 +580,9 @@ img.slide-cloud {
 .owl-nav .owl-next {
     color: #fff;
     font-size: 70px;
-    right: 50px;
+    right: 20px;
     position: absolute;
-    top: 0;
+    top: 50px;
     -webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -ms-transition: all 500ms ease;
