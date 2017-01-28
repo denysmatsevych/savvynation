@@ -3109,3 +3109,17 @@ ul.who-we-list span {
 .article-img {
     padding: 58px 0 57px;
 }
+
+.carousel-control.left {
+	left: 15px;
+}
+.carousel-control.right {
+	right: 15px;
+}
+.carousel-control.left i,
+.carousel-control.right i {
+	position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+}
