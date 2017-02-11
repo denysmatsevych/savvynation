@@ -808,7 +808,7 @@ div.owl-controls {
     transform: scale(1.05);
 }
 .class-hover{
-    background: rgba(146,39,143,.8);
+    /* background: rgba(146,39,143,.8); */
     position: absolute;
     left: 0;
     top: 0;
@@ -1471,7 +1471,7 @@ button.primary-btn span{
     padding: 0 0 0 30px;
 }
 .sort-btn {
-    margin-top: 21px;
+    margin: 21px 0;
 }
 .sort-btn li{
     display: inline-block;
