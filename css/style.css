@@ -921,6 +921,7 @@ div.owl-controls {
     margin-bottom: 40px;
 }
 .team-img {
+	width: 50%;
     position: relative;
     overflow: hidden;
     border-radius: 4px;
