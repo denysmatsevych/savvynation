@@ -3129,3 +3129,9 @@ ul.who-we-list span {
     z-index: 5;
     display: inline-block;
 }
+.class-information-details p {
+    margin: 0 0 30px;
+	padding-left: 18px;
+	color: #818283;
+    line-height: 24px;
+}
