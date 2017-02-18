@@ -1909,16 +1909,17 @@ button.primary-btn span{
 .subject-list li:last-child{
     border-bottom: 0;
 }
-.subject-list li a{
+.subject-list li p{
     font-size: 16px;
     color: #727375;
     float: left;
     position: relative;
 }
-.subject-list li a:hover{
+.subject-list li p:hover{
     color: #92278f;
+	cursor: pointer;
 }
-.subject-list li a:before{
+.subject-list li p:before{
     content: "\f105";
     font-family: fontAwesome;
     opacity: 0;
@@ -1933,7 +1934,7 @@ button.primary-btn span{
     padding-right: 5px;
     padding-left: 0;
 }
-.subject-list li a:hover:before{
+.subject-list li p:hover:before{
     opacity: 1;
     visibility: visible;
     padding-left: 10px;
