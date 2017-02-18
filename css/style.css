@@ -1914,6 +1914,7 @@ button.primary-btn span{
     color: #727375;
     float: left;
     position: relative;
+	margin: 0;
 }
 .subject-list li p:hover{
     color: #92278f;
@@ -2580,6 +2581,9 @@ ul.date {
     font-size: 18px;
     color: #808080;
     line-height: 30px;
+}
+.schedule-table tbody tr:hover td{
+	background: #ebebeb none repeat scroll 0 0 !important;
 }
 /* ==========================================================================
    Shortcode Page
