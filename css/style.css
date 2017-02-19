@@ -2427,6 +2427,7 @@ ul.date {
 }
 .single-event {
     margin-bottom: 48px;
+	min-height: 500px; 
 }
 .single-event h3{
     margin-bottom: 14px;
@@ -3134,4 +3135,8 @@ ul.who-we-list span {
 	padding-left: 18px;
 	color: #818283;
     line-height: 24px;
+}
+.event-img img {
+	width: 100%;
+	height: 284px;
 }
