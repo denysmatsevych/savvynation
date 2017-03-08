@@ -1830,7 +1830,7 @@ button.primary-btn span{
     border-radius: 3px;
 }
 .class-information {
-    padding-top: 30px;
+    /* padding-top: 30px; */
     padding-left: 18px;
 }
 .class-information h3 {
