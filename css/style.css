@@ -940,12 +940,12 @@ div.owl-controls {
     transition: all 0.5s ease-in-out 0s;
     width: 205%;
 }
-.team-img:hover:after{
+/* .team-img:hover:after{
     -webkit-transform: skew(45deg) scaleX(1);
     transform: skew(45deg) scaleX(1);
     -webkit-transition: all .7s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
     transition: all .7s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
-}
+} */
 .team-img img{
     border-radius: 4px;
     box-shadow: 0 6px #eceef0;
